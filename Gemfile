@@ -52,3 +52,8 @@ gem 'responders'
 gem 'google-webfonts-rails', '~> 0.0.4'
 
 gem "font-awesome-rails"
+
+gem 'rails_12factor', group: :production
+
+ruby '2.2.4'
+
