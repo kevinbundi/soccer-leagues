@@ -1,0 +1,27 @@
+h1{
+	font-family: 'Just Another Hand', cursive;
+	letter-spacing: 7px;
+	font-size: 38px;
+	color:white;
+	display: inline-block;
+}
+
+.my-header{
+	background-color: #1b0101;
+}
+
+.my-header-items{
+	margin-top: 9px;
+}
+
+.my-header-items a i{
+	color: white;
+}
+
+.my-header-items .my-button{
+	background-color: transparent;
+}
+
+.my-header-items .my-button:hover{
+	transform: scale(1.2);
+}

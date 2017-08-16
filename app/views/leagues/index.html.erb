@@ -1,0 +1,22 @@
+<div>
+	<table class="table table-responsive table-striped table-bordered table-sm">
+		<thead class="">
+			<th>League</th>
+			<th>Current Match Day</th>
+			<th>Number of Teams</th>
+			<th>Number of Games</th>
+		</thead>
+		<tbody>
+			<% @pokemon.each do |p| %>
+				<tr>
+					<td><a href="/leagues/<%= p['id'] %>"><%= p['caption'] %></a></td>
+					<td><%= p['currentMatchday'] %></td>
+					<td><%= p['numberOfTeams'] %></td>
+					<td><%= p['numberOfGames'] %></td>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
+</div>
+
+
